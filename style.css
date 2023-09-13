@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    box-shadow:   0px 0px 5px 0 gray;
+}
+.first-ul{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 1400px;
+    top: -27px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.li{
+    list-style: none;
+}
+.first-p{
+    color: #4A99D3;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 50px;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+.user{
+    width: 40px;
+    height: 30px;
+    position: relative;
+    top: -4px;
+    left: 10px;
+}
+.add{
+    width: 40px;
+    height: 30px;
+    position: relative;
+    top: -4px;
+    left: 10px;
+}
+.box{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    background-color:#EAF6FF;
+    position: relative;
+    top: 5px;
+}
+.box-h1{
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    left: -420px;
+    top: 80px;
+}
+.inp{
+    width:500px;
+    height: 70px;
+    position: relative;
+    background-color: #EAF6FF;
+    top: -280px;
+    left: 130px;
+    border-radius: 20px;
+    border:  2px solid red;
+}
+.box-img{
+    width:550px;
+    position: relative;
+    left: 600px;
+    top: 30px;
+}
+.card1{
+    width: 100%;
+    height: 400px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.mini-cards{
+    width: 40%;
+    height: 280px;
+    box-shadow: 0 5px 10px 2px grey;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.card-img{
+    width: 250px;
+    position: relative;
+    left: 450px;
+    top: -170px;
+}
+.card-h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.card-p{
+    font-size: 20.63px;
+    font-weight: 100;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.card-btn1{
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    background-color: red;
+    position: relative;
+    font-weight: 500;
+    left: -120px;
+    top: -180px;
+    border-radius: 15px;
+}
+/* .mini-card-1{
+
+
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    margin: 60px auto;
+}
+.cards{
+    width: 20%;
+    box-shadow: 0 5px 10px 2px grey;
+    height: 450px;
+    margin: auto;
+}
+.mini-card-img{
+    width: 300px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.mini-card-h1{
+    font-weight: 500;
+    position: relative;
+    left: 40px;
+    top: 60px;
+}
+.mini-card-h3{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 24px;
+    color: red;
+    left: 40px;
+    top: 70px;
+}
+.mini-card-p{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container1{
+    max-width: 1700px;
+    margin: 0px auto;
+}
+.row{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    height: 488px;
+    background: #FFF;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.11);
+    padding: 20px;
+}
+
+.card-header {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 0 auto; 
+    margin-top: 44px;
+}
+.card-header img {
+    width: 100%;
+    transition: 0.5s;
+}
+.card-header img:hover{
+    transform: scale(1.1);
+}
+
+.card-body {
+    margin-top: 54px;
+}
+
+.card-title {
+    color: var(--text-color, #414141);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-name {
+    color: var(--text-color, #414141);
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 15px;
+}
+
+.card-price {
+    color: var(--text-color, #414141);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 9px;
+}
+
+.card-size {
+    color: var(--text-color, #414141);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 15px;
+}
+
+.card-width-title {
+    color: #C4C4C4;
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-width {
+    color: var(--text-color, #414141);
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 8px;
+}
+
+.card-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.card-btn {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 13px 50px;
+    border: 0;
+    background: red;
+    margin-top: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card-btn:hover{
+    opacity: 0.7;
+    background-color: blue;
+}
+.card-btn:active{
+    opacity: 0.9;
+}
+
+
+
+
